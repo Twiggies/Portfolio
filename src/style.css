@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    background: rgba(0,0,0,0.6) !important;
+    padding: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFF;
+    padding: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1ebba3;
+}
+
+
+
+.img-fluid {
+    width:100%;
+    height: 90%;
+    
+}
+
+.heading-content {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h5 {
+    font-size: 5em;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.heading-content h1 {
+    font-size: 10em;
+    font-weight:800;
+    color: #23d869;
+}
+
+.heading-content p {
+    font-size: 1em; 
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #ccc;
+    letter-spacing: 1em;
+    word-spacing: 3em;
+
+}
+
+.about-me {
+    font-size: 2em;
+}
+
+.btn-xxl {
+    font-size: 3em;
+}
+
+.work-text {
+    font-size: 1.5em;
+}
+
+.card-title {
+    font-size: 2em;
+    font-weight: bolder;
+}
