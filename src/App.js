@@ -5,7 +5,9 @@ import './style.css';
 import background from './toaster.jpg';
 import placeholder from './maxresdefault.jpg';
 import {Card, Button} from 'react-bootstrap';
-import { FaLinkedin, FaGithub, FaEnvelopeSquare } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelopeSquare, FaJava, FaJs, FaPython, FaHtml5 } from 'react-icons/fa';
+import {SiCplusplus} from 'react-icons/si';
+import {AiOutlineConsoleSql} from 'react-icons/ai';
 
 
 
@@ -64,9 +66,19 @@ function App() {
               <Card.Text class="about-me">
               Hello! I'm Hee Yi Xiang from Malaysia. I'm pursuing my bachelor's degree of Computer Science at Multimedia University Cyberjaya,
               and I'm a major in Software Engineering. I'm always eager to learn more about different knowledge and experience along
-              this path.
+              this path. 
               </Card.Text>
               <Button  variant="outline-dark" size="xxl" block href="https://www.linkedin.com/in/yi-xiang-hee-a471b2208/" target="_blank">Find Me Here</Button>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Body>
+              <Card.Text class="about-me">
+                Languages that I have learned before:
+                <div class="container-fluid">
+                  <FaJava size={70}/><FaJs size={70}/><SiCplusplus size={70}/><FaPython size={70}/><FaHtml5 size={70}/><AiOutlineConsoleSql size={70}/>
+                </div>
+              </Card.Text>
             </Card.Body>
           </Card>
           </div>
