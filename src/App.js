@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './bootstrap.min.css';
 import './style.css';
 import background from './background.jpg';
-import placeholder from './maxresdefault.jpg';
+import order from './order.png';
+import chess from "./chess.png";
 import {Card, Button} from 'react-bootstrap';
 import { FaLinkedin, FaGithub, FaEnvelopeSquare, FaJava, FaJs, FaPython, FaHtml5 } from 'react-icons/fa';
 import {SiCplusplus} from 'react-icons/si';
@@ -93,9 +94,9 @@ function App() {
             
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-6 col-md-6 col-sm-12">
             <Card>
-              <Card.Img variant="top" src={background}/>
+              <Card.Img variant="top" src={chess} class="card-img"/>
               <Card.Body>
                 <Card.Title>Webale Chess</Card.Title>
                 <Card.Text class="work-text">
@@ -104,20 +105,9 @@ function App() {
               </Card.Body>
             </Card>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-6 col-md-6 col-sm-12">
             <Card>
-              <Card.Img variant="top" src={background}/>
-              <Card.Body>
-                <Card.Title>Food Order System</Card.Title>
-                <Card.Text class="work-text">
-                  A simple system for food ordering also done with a group of friends, written in php and SQL for database managing.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <Card>
-              <Card.Img variant="top" src={background}/>
+              <Card.Img variant="top" src={order} class="card-img"/>
               <Card.Body>
                 <Card.Title>Food Order System</Card.Title>
                 <Card.Text class="work-text">
