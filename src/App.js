@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './bootstrap.min.css';
 import './style.css';
-import background from './toaster.jpg';
+import background from './background.jpg';
 import placeholder from './maxresdefault.jpg';
 import {Card, Button} from 'react-bootstrap';
 import { FaLinkedin, FaGithub, FaEnvelopeSquare, FaJava, FaJs, FaPython, FaHtml5 } from 'react-icons/fa';

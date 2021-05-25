@@ -8,6 +8,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
 .navbar {
     text-transform: uppercase;
     font-size: 14px;
@@ -37,20 +39,20 @@ body {
 
 .heading-content {
     position: absolute;
-    top: 40%;
+    top: clamp(20%,30%, 40%);
     width: 100%;
     max-width: 100%;
 }
 
 .heading-content h5 {
-    font-size: 5em;
+    font-size: clamp(2em, 5em, 7em);
     font-weight: 300;
     color: #fff;
     font-family: 'Roboto Mono', monospace;
 }
 
 .heading-content h1 {
-    font-size: 10em;
+    font-size: clamp(5em, 10em, 15em);
     font-weight:800;
     color: #23d869;
 }
