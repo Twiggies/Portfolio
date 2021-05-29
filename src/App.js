@@ -102,7 +102,8 @@ function App() {
                 <Card.Text class="work-text">
                   A slightly altered Chess game programmed using OOP Concept, written in Java with a group of friends.  
                 </Card.Text>
-                <a href="https://github.com/Twiggies/Webale-Chess" class="btn btn-outline-dark btn-block btn-xxl stretched-link">The Repo</a>
+                <a href="https://github.com/Twiggies/Webale-Chess" 
+                target= "_blank" class="btn btn-outline-dark btn-block btn-xxl stretched-link">The Repo</a>
               </Card.Body>
             </Card>
           </div>
@@ -114,6 +115,8 @@ function App() {
                 <Card.Text class="work-text">
                   A simple system for food ordering also done with a group of friends, written in php and SQL for database managing.
                 </Card.Text>
+                <a href="https://github.com/Twiggies/Food-Order-System" 
+                target= "_blank" class="btn btn-outline-dark btn-block btn-xxl stretched-link">The Repo</a>
               </Card.Body>
             </Card>
           </div>
