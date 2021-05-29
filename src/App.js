@@ -102,7 +102,7 @@ function App() {
                 <Card.Text class="work-text">
                   A slightly altered Chess game programmed using OOP Concept, written in Java with a group of friends.  
                 </Card.Text>
-                <a href="https://github.com/Twiggies/Webale-Chess" class="btn btn-primary stretched link">The Repo</a>
+                <a href="https://github.com/Twiggies/Webale-Chess" class="btn btn-primary stretched-link">The Repo</a>
               </Card.Body>
             </Card>
           </div>
